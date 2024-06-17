@@ -1,17 +1,17 @@
 
-## Hospital Management System
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=4000&pause=500&random=false&width=435&lines=Hospital+Management+System+%F0%9F%8F%A5)](https://git.io/typing-svg)
 
 Hospital Management System (HMS) 🏥 is a comprehensive software solution designed to streamline healthcare operations. 🌟 This system integrates MySQL for robust data management, PHP for server-side scripting, and Bootstrap for responsive web design, ensuring accessibility across devices. 🖥️ HMS facilitates efficient patient management, appointment scheduling, doctor coordination, billing, and administrative tasks, enhancing overall hospital productivity and patient care. With user-friendly interfaces and secure data handling, HMS supports healthcare providers in delivering quality services while maintaining organizational efficiency. 📊
 
 ## Table of content <!-- omit from toc -->
-- [Steps to run the project in your machine](https://github.com/Shrey2dew/Football-Player-Detection-and-Tracking?tab=readme-ov-file#yolov5)
-- [Getting into project](https://github.com/Shrey2dew/Football-Player-Detection-and-Tracking?tab=readme-ov-file#bytetrack)
-- [Patient Module](https://github.com/Shrey2dew/Football-Player-Detection-and-Tracking?tab=readme-ov-file#-screenshots)
-- [Doctor Module](https://github.com/Shrey2dew/Football-Player-Detection-and-Tracking?tab=readme-ov-file#technologies-used-%EF%B8%8F)
-- [Admin Module](https://github.com/Shrey2dew/Football-Player-Detection-and-Tracking?tab=readme-ov-file#project-structure)
-- [Updates](https://github.com/Shrey2dew/Football-Player-Detection-and-Tracking/blob/main/README.md#contributors)
-- [Technology Stack](https://github.com/Shrey2dew/Football-Player-Detection-and-Tracking?tab=readme-ov-file#license)
-- [Contributors](https://github.com/Shrey2dew/Football-Player-Detection-and-Tracking?tab=readme-ov-file#conclusion)
+- [Steps to run the project in your machine](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#steps-to-run-the-project-in-your-machine)
+- [Getting into project](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#getting-into-project)
+- [Patient Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#patient-module)
+- [Doctor Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#doctor-module)
+- [Admin Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#admin-module)
+- [Updates](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#updates)
+- [Technology Stack](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#technology-stack-%EF%B8%8F)
+- [Contributors](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#contributors-)
 
 
 ## Steps to run the project in your machine
@@ -80,11 +80,6 @@ Here, the patients can able to book their appointments to see a doctor. The appo
 
 After clicking on the ‘Create new entry’ button, the patient will receive an alert that acknowledges the successful appointment of the patient. 
 
-<div align="left">
-
- <img src="" width="auto" height="auto" /> 
-
-</div>
 
 **2. View patients’ Appointment History:**
 
