@@ -182,4 +182,11 @@ Admin can also delete the doctors from the system. This let admin to have more c
 5. Php
 6. MySQL (An RDBMS that uses SQL)
 7. TCPDF (to generate PDFs)
+   
 ## Contributors 🤝
+
+1. [Shrey Nalode](https://github.com/Shrey2dew)
+2. [Aastha Singh](https://github.com/aasthasingh14)
+3. [Rushabh Singwi](https://github.com/RushabhSingwi)
+
+
