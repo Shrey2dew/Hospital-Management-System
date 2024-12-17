@@ -32,7 +32,7 @@ Download XAMPP control panel [XAMPP](https://www.apachefriends.org/)
 
 ### Starting Apache And MySQL in XAMPP:
 ![](https://github.com/Shrey2dew/Hospital-Management-System/blob/main/Helping%20Videos/How%20to%20set%20up%20Apache%20and%20Mysql%20in%20Xampp.gif)
-###### Follow above video fro setting up Apache and MySQL
+###### Follow above video for setting up Apache and MySQL
 1. Select start and admin on MySQL and Apache
 2. In Php admin :
         
