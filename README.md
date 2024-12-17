@@ -10,6 +10,7 @@ Hospital Management System (HMS) 🏥 is a comprehensive software solution desig
 - [Doctor Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#doctor-module)
 - [Admin Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#admin-module)
 - [Updates](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#updates)
+- [Database Schema]()
 - [Technology Stack](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#technology-stack-%EF%B8%8F)
 - [Contributors](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#contributors-)
 
@@ -173,6 +174,10 @@ Similarly doctors can also delete their appointments and patients can view their
 ### 2. Remove Doctors by Admin
 
 Admin can also delete the doctors from the system. This let admin to have more control over the system.
+
+## Steps to run the project in your machine
+
+
 ## Technology Stack ⚙️
 
 1. HTML5/CSS3
