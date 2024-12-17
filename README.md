@@ -10,7 +10,7 @@ Hospital Management System (HMS) 🏥 is a comprehensive software solution desig
 - [Doctor Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#doctor-module)
 - [Admin Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#admin-module)
 - [Updates](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#updates)
-- [Database Schema](https://github.com/Shrey2dew/Hospital-Management-System/blob/main/README.md#steps-to-run-the-project-in-your-machine-1)
+- [Database Schema](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#database-schema)
 - [Technology Stack](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#technology-stack-%EF%B8%8F)
 - [Contributors](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#contributors-)
 
@@ -187,6 +187,46 @@ Admin can also delete the doctors from the system. This let admin to have more c
 | contact     | VARCHAR(15)  | UNIQUE                    | Patient's contact number           |
 | created_at  | TIMESTAMP    | DEFAULT CURRENT_TIMESTAMP | When the patient registered        |
 
+**2. Doctors Table:**
+| Column Name     | Data Type     | Constraints               | Description                            |
+|-----------------|---------------|---------------------------|----------------------------------------|
+| doctor_id       | INT           | PK, AUTO_INCREMENT        | Unique identifier for each doctor      |
+| name            | VARCHAR(100)  | NOT NULL                  | Doctor's full name                     |
+| email           | VARCHAR(100)  | UNIQUE, NOT NULL          | Doctor's email (login)                 |
+| password        | VARCHAR(255)  | NOT NULL                  | Encrypted password for login           |
+| contact         | VARCHAR(15)   | UNIQUE                    | Doctor's contact number                |
+| specialization  | VARCHAR(100)  | NULL                      | Doctor's area of specialization        |
+| consultancy_fee | DECIMAL(10,2) | NULL                      | Consultation fee charged by the doctor |
+| created_at      | TIMESTAMP     | DEFAULT CURRENT_TIMESTAMP | When the doctor was registered         |
+
+**3. Admin Table:**
+| Column Name | Data Type    | Constraints        | Description                      |
+|-------------|--------------|--------------------|----------------------------------|
+| admin_id    | INT          | PK, AUTO_INCREMENT | Unique identifier for each admin |
+| username    | VARCHAR(50)  | UNIQUE, NOT NULL   | Admin login username             |
+| password    | VARCHAR(255) | NOT NULL           | Encrypted password for login     |
+
+**4. Appointments Table:**
+| Column Name      | Data Type                                | Constraints               | Description                            |
+|------------------|------------------------------------------|---------------------------|----------------------------------------|
+| appointment_id   | INT                                      | PK, AUTO_INCREMENT        | Unique identifier for each appointment |
+| patient_id       | INT                                      | FK (patients)             | References Patients table              |
+| doctor_id        | INT                                      | FK (doctors)              | References Doctors table               |
+| appointment_date | DATE                                     | NOT NULL                  | Date of the appointment                |
+| appointment_time | TIME                                     | NOT NULL                  | Time of the appointment                |
+| consultancy_fee  | DECIMAL(10,2)                            | DEFAULT 0.00              | Consultation fee for the appointment   |
+| status           | ENUM('Booked', 'Cancelled', 'Completed') | DEFAULT 'Booked'          | Status of the appointment              |
+| created_at       | TIMESTAMP                                | DEFAULT CURRENT_TIMESTAMP | When the appointment was created       |
+
+**5. Feedback Table:**
+| Column Name | Data Type    | Constraints               | Description                         |
+|-------------|--------------|---------------------------|-------------------------------------|
+| feedback_id | INT          | PK, AUTO_INCREMENT        | Unique identifier for each feedback |
+| user_name   | VARCHAR(100) | NOT NULL                  | Name of the user providing feedback |
+| email       | VARCHAR(100) | NOT NULL                  | User's email                        |
+| contact     | VARCHAR(15)  | NULL                      | Contact number (optional)           |
+| message     | TEXT         | NOT NULL                  | Feedback or query message           |
+| created_at  | TIMESTAMP    | DEFAULT CURRENT_TIMESTAMP | When the feedback was submitted     |
 
 ## Technology Stack ⚙️
 
