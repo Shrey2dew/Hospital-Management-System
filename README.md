@@ -10,7 +10,7 @@ Hospital Management System (HMS) 🏥 is a comprehensive software solution desig
 - [Doctor Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#doctor-module)
 - [Admin Module](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#admin-module)
 - [Updates](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#updates)
-- [Database Schema]()
+- [Database Schema](https://github.com/Shrey2dew/Hospital-Management-System/blob/main/README.md#steps-to-run-the-project-in-your-machine-1)
 - [Technology Stack](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#technology-stack-%EF%B8%8F)
 - [Contributors](https://github.com/Shrey2dew/Hospital-Management-System/tree/main?tab=readme-ov-file#contributors-)
 
@@ -175,7 +175,17 @@ Similarly doctors can also delete their appointments and patients can view their
 
 Admin can also delete the doctors from the system. This let admin to have more control over the system.
 
-## Steps to run the project in your machine
+## Database Schema
+**1. Patient Table:**
+| Column Name | Data Type    | Constraints               | Description                        |
+|-------------|--------------|---------------------------|------------------------------------|
+| patient_id  | INT          | PK, AUTO_INCREMENT        | Unique identifier for each patient |
+| first_name  | VARCHAR(50)  | NOT NULL                  | Patient's first name               |
+| last_name   | VARCHAR(50)  | NOT NULL                  | Patient's last name                |
+| email       | VARCHAR(100) | UNIQUE, NOT NULL          | Patient's email (login)            |
+| password    | VARCHAR(255) | NOT NULL                  | Encrypted password for login       |
+| contact     | VARCHAR(15)  | UNIQUE                    | Patient's contact number           |
+| created_at  | TIMESTAMP    | DEFAULT CURRENT_TIMESTAMP | When the patient registered        |
 
 
 ## Technology Stack ⚙️
